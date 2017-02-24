@@ -31,15 +31,15 @@ class MultiNav():
         locations = dict()  
         
 
-        locations['home_origin'] = Pose(Point(0, 0, 0), Quaternion(0.000, 0.000, 0.000, 0.000))  
-        locations['home_babyroom'] = Pose(Point(0.3, 0.26, 0.00143), Quaternion(0.000, 0.000, 0.000, 0.000))  
-        locations['home_bedroom'] = Pose(Point(3.40, 2.26, 0.00143), Quaternion(0.000, 0.000, 0.000, 0.000))  
-        locations['home_kitchen'] = Pose(Point(-1.03, 7.28, 0.00143), Quaternion(0.000, 0.000, 0.000, 0.000))  
-        locations['home_hall'] = Pose(Point(-1.40, 4.30, 0.00143), Quaternion(0.000, 0.000, 0.000, 0.000))  
-        locations['home_sofa'] = Pose(Point(-2.56, 2.82, 0.00143), Quaternion(0.000, 0.000, 0.000, 0.000))  
-        locations['home_refrigerator'] = Pose(Point(-1.00, 6.88, 0.00143), Quaternion(0.000, 0.000, 0.000, 0.000)) 
-        locations['home_door'] = Pose(Point(-2.80, 8.00, 0.00143), Quaternion(0.000, 0.000, 0.000, 0.000))
-        locations['home_balcony'] = Pose(Point(-2.08, 4.57, 0.00143), Quaternion(0.000, 0.000, 0.000, 0.000)) 
+        #locations['home_origin'] = Pose(Point(0, 0, 0), Quaternion(0.000, 0.000, 0.000, 0.000))  
+        locations['home_babyroom'] = Pose(Point(0.3, 0.26, 0.00), Quaternion(0.000, 0.000, 0.00, 1.00))  
+        #locations['home_bedroom'] = Pose(Point(3.40, 2.26, 0.00), Quaternion(0.000, 0.000, 0.00143, 0.00143))  
+        locations['home_kitchen'] = Pose(Point(-1.03, 7.28, 0.00), Quaternion(0.000, 0.000, 0.00, 1.00))  
+        locations['home_hall'] = Pose(Point(-1.40, 4.30, 0.00), Quaternion(0.000, 0.000, 0.00, 1.00))  
+        locations['home_sofa'] = Pose(Point(-2.56, 2.82, 0.00), Quaternion(0.000, 0.000, 0.00, 1.00))  
+        locations['home_refrigerator'] = Pose(Point(-1.00, 6.88, 0.00), Quaternion(0.000, 0.000, 0.00, 1.00)) 
+        locations['home_door'] = Pose(Point(-2.80, 8.00, 0.00), Quaternion(0.000, 0.000, 0.00143, 1.00))
+        locations['home_balcony'] = Pose(Point(-2.08, 4.57, 0.00), Quaternion(0.000, 0.000, 0.00143, 1.00)) 
 
  
         # Publisher to manually control the robot (e.g. to stop it)  

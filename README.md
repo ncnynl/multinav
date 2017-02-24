@@ -1,6 +1,10 @@
 # multinav
 multi point navigation by turtlebot
 
+@author : nightcat
+@website: www.ncnynl.com
+@doc:http://www.ncnynl.com/archives/201702/1385.html 
+
 How to run:
 
 
